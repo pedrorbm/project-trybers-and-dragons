@@ -1,4 +1,4 @@
-export type EnergyType = 'mana' | 'stamina';
+import { EnergyType } from '../Energy';
 
 abstract class Archetype {
   private _name: string; 
